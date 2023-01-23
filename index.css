@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+#bd{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/1920px-Indian_Premier_League_Official_Logo.svg.png);
+    background-size: contain;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.dv{
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 36px;
+}
+/*header{
+    
+    padding: 14px;
+}*/
+ul{
+    list-style-type: none;
+    height: 15px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+ul li a{
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+    color: rgba(11, 4, 49, 0.904);
+    border: 1px ridge red;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(97, 241, 241, 0.8);
+}
+ul li a:hover{
+    background: rgba(159, 160, 196, 0.6);
+}
+ul li a:active{
+    background-color: rgb(50, 207, 235);
+}
+/*ul li a:visited{
+    background-color: rgb(164, 230, 13);
+}*/
+a{
+    text-decoration: none;
+}
+#h1{
+    color: rgb(170, 15, 15);
+    text-shadow: 2px 2px 2px seagreen;
+    margin-top: 10px;
+    text-align: center;
+}
+#h2{
+    color: rgb(170, 15, 15);
+    text-shadow: 2px 2px 2px seagreen;
+    text-align: center;
+}
+.p{
+    color:rgb(39, 8, 8);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px gray;
+    letter-spacing: 2px;
+    
+}
+#p1{
+    margin-top: 5px;
+}
+#p2{
+    margin-bottom: 20px;
+}
+#p3{
+    margin-top: 5px;
+}
+.tp{
+    background: rgba(138, 206, 238, 0.904);
+    color: rgb(43, 20, 31);
+}
+footer{
+    margin-top: 60px;
+}
+footer nav{
+    float: right;
+}

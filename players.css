@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/1920px-Indian_Premier_League_Official_Logo.svg.png);
+    background-size: contain;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+div{
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 36px;
+}
+ul{
+    list-style-type: none;
+    height: 15px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+ul li a{
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+    color: rgba(11, 4, 49, 0.904);
+    border: 1px ridge red;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(97, 241, 241, 0.8);
+}
+ul li a:hover{
+    background: rgba(159, 160, 196, 0.6);
+}
+ul li a:active{
+    background-color: rgb(50, 207, 235);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(170, 15, 15);
+    text-shadow: 2px 2px 2px seagreen;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: rgb(170, 15, 15);
+    text-shadow: 1px 1px 1px seagreen;  
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+img{
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+p{
+    color:rgb(39, 8, 8);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px gray;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
+}
+table{
+    border: 1px  rgb(43, 4, 70);
+    border-style:groove;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10%;
+    background: linear-gradient(rgb(216, 17, 17), rgb(216, 76, 21));
+}
+th,td {
+    border: 3px solid rgb(29, 3, 53);
+    text-align: center;
+    border-radius: 5px;
+    border-style:double;
+}
+th{
+    color:rgb(4, 2, 36);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px rgb(25, 6, 78);
+}
+td{
+    color: rgb(251, 220, 255);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.3px  grey;
+}
+footer{
+    margin-top: 60px;
+}
+footer nav{
+    float: right;
+}
+footer nav li{
+    float: left;
+}
